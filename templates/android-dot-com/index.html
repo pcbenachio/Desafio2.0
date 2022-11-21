@@ -29,13 +29,20 @@
 </script>
     
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8VQ6F1K67R"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-8VQ6F1K67R');
+  gtag('config', 'G-8VQ6F1K67R', {
+     'page_location' : '{{Real Page URL}}',
+     'user_id' : '{{User ID}}',
+     'intercom_user' : '{{Intercom User}}',
+     
+     'user_properties': {
+        'user_id' : '{{User ID}}'
+  }});
 </script>
 
     <meta charset="utf-8">
